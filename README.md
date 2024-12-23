@@ -26,7 +26,7 @@ Kurulum ve kullanım talimatları için YouTube videomuzu izleyebilirsiniz:
 Bu projeyi hem yerel bilgisayarınıza hem de hosting kontrol panelinize kurabilirsiniz.
 
 ### **1. Dosyaları İndirin**
-- GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/blob/main/eka-kurumsalv0.zip) dosyasını indirin.
+- GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/releases) dosyasını indirin.
 
 ---
 
@@ -51,3 +51,112 @@ Eğer kurulum sırasında hata alırsanız:
 2. Proje klasörüne gidin:
    ```bash
    cd eka-kurumsal
+   ```
+3. Gerekli bağımlılıkları yükleyin:
+   ```bash
+   npm install
+   ```
+4. Projeyi geliştirme modunda başlatmak için:
+   ```bash
+   npm start
+   ```
+5. Tarayıcınızda `http://localhost:3000` adresine giderek projeyi görüntüleyin.
+
+#### **Derleme (Build)**
+Eğer projeyi hostingde yayınlamak istiyorsanız:
+```bash
+npm run build
+```
+Bu işlemden sonra oluşan `build` veya `dist` klasörünü hosting kontrol panelinize yükleyin.
+
+---
+
+## **E-posta Gönderimi (SMTP)**
+
+İletişim formunun çalışması için şu adımları izleyin:
+
+1. `sendMail.php` dosyasını `public_html` dizinine yükleyin.
+2. SMTP bilgilerinizi `sendMail.php` içinde güncelleyin:
+   ```php
+   $mail->Host = 'mail.ekasunucu.org';
+   $mail->Username = 'info@ekabilisim.com';
+   $mail->Password = 'ym?0+$+0}F+M';
+   $mail->addAddress('ekasunucu@gmail.com');
+   ```
+
+E-posta gönderimi için hostinginizin **SMTP** desteğinin aktif olduğundan emin olun.
+
+---
+
+## **İletişim**
+
+### **Firma Bilgileri**
+- **Telefon**: 0 (850) 307 34 58
+- **Faks**: 0 (212) 993 34 58
+- **E-posta**: [info@ekayazilim.com.tr](mailto:info@ekayazilim.com.tr)
+- **Adres**: Halkalı Merkez, Fatih Cd. Özgür Apartmanı No: 45 İç Kapı No: 3, 34303 Küçükçekmece/İstanbul
+
+### **Sosyal Medya**
+- [Facebook](https://www.facebook.com/ekayazilim)
+- [Twitter](https://twitter.com/ekayazilim)
+- [LinkedIn](https://www.linkedin.com/company/eka-software-limited/)
+- [Instagram](https://www.instagram.com/ekayazilim.com.tr/)
+- [YouTube](https://www.youtube.com/@ekayazilim)
+
+---
+
+## **Karşılaşılabilecek Sorunlar ve Çözümleri**
+
+### **1. ZIP Dosyası Çıkartılamıyor**
+Eğer hostingde ZIP dosyasını çıkartırken hata alıyorsanız:
+- ZIP dosyasını bilgisayarınızda çıkartın ve `public_html` dizinine manuel olarak yükleyin.
+
+### **2. `npm install` Hatası**
+Yerel bilgisayarda bağımlılıkları yüklerken hata alırsanız:
+```bash
+npm install --force
+```
+
+### **3. İletişim Formu Çalışmıyor**
+- SMTP ayarlarını `sendMail.php` dosyasında doğru yapılandırın.
+- Hosting sağlayıcınızın PHP `mail()` fonksiyonunu desteklediğinden emin olun.
+
+---
+
+## **Klasör Yapısı**
+
+```
+/public_html
+    ├── /assets             # Statik dosyalar (CSS, JS, resimler)
+    ├── /php                # PHP dosyaları (sendMail.php vb.)
+    ├── /src                # React bileşenleri
+    ├── index.html          # Ana dosya
+    └── sendMail.php        # E-posta gönderim dosyası
+```
+
+---
+
+## **Ekran Görüntüleri**
+
+### Anasayfa
+![Anasayfa](https://ekabilisim.com/screenshots/home.png)
+
+### Hakkımızda
+![Hakkımızda](https://ekabilisim.com/screenshots/about.png)
+
+### Hizmetlerimiz
+![Hizmetlerimiz](https://ekabilisim.com/screenshots/services.png)
+
+### İletişim
+![İletişim](https://ekabilisim.com/screenshots/contact.png)
+
+---
+
+## **Katkı**
+Proje tamamen açık kaynaklıdır. Katkıda bulunmak isterseniz **Pull Request** gönderebilirsiniz.
+
+---
+
+## **Lisans**
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+
