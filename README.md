@@ -1,30 +1,48 @@
-# EKA Yazılım Web Sitesi
+# EKA Yazılım - Ücretsiz Website Scripti
 
-Bu proje, modern teknolojilerle işinizi ileriye taşımak için hazırlanmış bir yazılım ve hizmet tanıtım sitesidir.
+Bu proje, EKA Yazılım tarafından modern yazılım çözümleri sunmak ve işletmelerin dijital dönüşümüne katkıda bulunmak için geliştirilmiş, tamamen ücretsiz bir web sitesi scriptidir.
 
-![EKA Yazılım Anasayfa](https://ekabilisim.com)
+![EKA Yazılım](https://ekabilisim.com/screenshots/home.png)
 
-## Özellikler
-- **Modern Arayüz**: Şık ve kullanıcı dostu tasarım.
-- **Hakkımızda**: Şirket bilgileri ve vizyonumuz.
-- **Hizmetlerimiz**: Yazılım geliştirme, mobil uygulamalar, web tasarım, veritabanı çözümleri, cloud hizmetleri ve danışmanlık hizmetleri.
-- **İletişim**: Form üzerinden doğrudan bizimle iletişim kurabilirsiniz.
-- **Google Harita Entegrasyonu**: Ofisimizin konumunu görüntüleyin.
+## **Özellikler**
+- Modern ve şık tasarım
+- Mobil uyumlu (responsive) yapı
+- Hakkımızda, Hizmetlerimiz ve İletişim bölümleri
+- Google Harita entegrasyonu
+- İletişim formu üzerinden SMTP ile e-posta gönderimi
+- Kolay kurulum ve kullanım
 
 ---
 
-## Kurulum
+## **Kurulum**
 
-Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+Bu projeyi kendi hosting kontrol panelinizde (cPanel, Plesk vb.) veya yerel bilgisayarınızda kurmak için aşağıdaki adımları takip edin.
 
-### Gerekli Araçlar
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [PHP](https://www.php.net/) (E-posta gönderimi için gereklidir)
+### **1. Dosyaları İndirin**
+1. GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/releases) dosyasını indirin.
+2. İndirdiğiniz dosyayı bilgisayarınıza kaydedin.
 
-### Adımlar
+---
 
-1. Projeyi klonlayın:
+### **2. Hosting Üzerinde Kurulum**
+
+#### **Adımlar**
+1. Hosting kontrol panelinize (cPanel, Plesk vb.) giriş yapın.
+2. **Dosya Yöneticisi**ni açarak `public_html` dizinine gidin.
+3. İndirdiğiniz `eka-kurumsalv0.zip` dosyasını `public_html` dizinine yükleyin.
+4. Yüklediğiniz ZIP dosyasını seçin ve "Extract" (Çıkart) seçeneğini kullanarak dosyaları açın.
+
+#### **Not:**
+Eğer bir hata ile karşılaşırsanız:
+- Hosting sağlayıcınızın PHP ve Node.js desteğinin aktif olduğundan emin olun.
+- **PHP versiyonu:** En az 7.4 veya üzeri olmalıdır.
+
+---
+
+### **3. Yerel Bilgisayarda Kurulum**
+
+Eğer projeyi yerel bilgisayarınızda çalıştırmak isterseniz:
+1. [Node.js](https://nodejs.org/) ve npm'i yükleyin.
+2. Proje klasörüne gidin:
    ```bash
-   git clone https://github.com/kullanici_adi/proje_adi.git
-   cd proje_adi
+   cd eka-kurumsal
