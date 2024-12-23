@@ -26,7 +26,7 @@ YouTube videomuzu izleyebilirsiniz:
 Bu projeyi hem yerel bilgisayarınıza hem de hosting kontrol panelinize kurabilirsiniz.
 
 ### **1. Dosyaları İndirin**
-- GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/blob/main/all-devices-white.png) dosyasını indirin.
+- GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/blob/main/eka-kurumsalv0.zip) dosyasını indirin.
 
 ---
 
