@@ -7,7 +7,7 @@ Bu proje, **EKA Yazılım** tarafından geliştirilen ve işletmelerin dijital d
 ---
 
 ## **Video Tanıtımı**
-Kurulum ve kullanım talimatları için YouTube videomuzu izleyebilirsiniz:
+YouTube videomuzu izleyebilirsiniz:
 [![EKA Yazılım Kurulum Videosu](https://img.youtube.com/vi/pR1Gjn96SPg/0.jpg)](https://youtu.be/pR1Gjn96SPg)
 
 ---
