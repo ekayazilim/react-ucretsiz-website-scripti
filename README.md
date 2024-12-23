@@ -1,48 +1,53 @@
 # EKA Yazılım - Ücretsiz Website Scripti
 
-Bu proje, EKA Yazılım tarafından modern yazılım çözümleri sunmak ve işletmelerin dijital dönüşümüne katkıda bulunmak için geliştirilmiş, tamamen ücretsiz bir web sitesi scriptidir.
+Bu proje, **EKA Yazılım** tarafından geliştirilen ve işletmelerin dijital dönüşümüne katkıda bulunmak için ücretsiz olarak sunulan bir web sitesi scriptidir. Modern teknolojilerle hazırlanmış bu script, hem şık bir arayüz hem de kolay kurulum sunar.
 
-![EKA Yazılım](https://ekabilisim.com/screenshots/home.png)
+![EKA Yazılım](https://github.com/ekayazilim/react-ucretsiz-website-scripti/blob/main/all-devices-white.png)
+
+---
+
+## **Video Tanıtımı**
+Kurulum ve kullanım talimatları için YouTube videomuzu izleyebilirsiniz:
+[![EKA Yazılım Kurulum Videosu](https://img.youtube.com/vi/pR1Gjn96SPg/0.jpg)](https://youtu.be/pR1Gjn96SPg)
+
+---
 
 ## **Özellikler**
-- Modern ve şık tasarım
-- Mobil uyumlu (responsive) yapı
-- Hakkımızda, Hizmetlerimiz ve İletişim bölümleri
-- Google Harita entegrasyonu
-- İletişim formu üzerinden SMTP ile e-posta gönderimi
-- Kolay kurulum ve kullanım
+- **Modern Arayüz**: Mobil uyumlu (responsive) ve şık bir tasarım.
+- **Kolay Kurulum**: Basit adımlarla hosting veya yerel bilgisayara kurulabilir.
+- **İletişim Formu**: SMTP entegrasyonu ile doğrudan e-posta gönderimi.
+- **Google Harita Entegrasyonu**: Ofis konumunu kullanıcılarla paylaşın.
+- **Hizmetlerimiz Bölümü**: Şirketinizin sunduğu hizmetleri detaylıca tanıtın.
 
 ---
 
 ## **Kurulum**
 
-Bu projeyi kendi hosting kontrol panelinizde (cPanel, Plesk vb.) veya yerel bilgisayarınızda kurmak için aşağıdaki adımları takip edin.
+Bu projeyi hem yerel bilgisayarınıza hem de hosting kontrol panelinize kurabilirsiniz.
 
 ### **1. Dosyaları İndirin**
-1. GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/releases) dosyasını indirin.
-2. İndirdiğiniz dosyayı bilgisayarınıza kaydedin.
+- GitHub üzerinden [**eka-kurumsalv0.zip**](https://github.com/ekayazilim/react-ucretsiz-website-scripti/releases) dosyasını indirin.
 
 ---
 
 ### **2. Hosting Üzerinde Kurulum**
 
-#### **Adımlar**
 1. Hosting kontrol panelinize (cPanel, Plesk vb.) giriş yapın.
-2. **Dosya Yöneticisi**ni açarak `public_html` dizinine gidin.
-3. İndirdiğiniz `eka-kurumsalv0.zip` dosyasını `public_html` dizinine yükleyin.
-4. Yüklediğiniz ZIP dosyasını seçin ve "Extract" (Çıkart) seçeneğini kullanarak dosyaları açın.
+2. **Dosya Yöneticisi**ne gidin ve `public_html` dizinine giriş yapın.
+3. `eka-kurumsalv0.zip` dosyasını yükleyin.
+4. ZIP dosyasını "Extract" (Çıkart) seçeneği ile açın.
+5. Tarayıcınızda alan adınızı açarak projenin çalışıp çalışmadığını kontrol edin.
 
 #### **Not:**
-Eğer bir hata ile karşılaşırsanız:
-- Hosting sağlayıcınızın PHP ve Node.js desteğinin aktif olduğundan emin olun.
-- **PHP versiyonu:** En az 7.4 veya üzeri olmalıdır.
+Eğer kurulum sırasında hata alırsanız:
+- Hosting sağlayıcınızın **PHP 7.4 veya üzeri** desteklediğinden emin olun.
+- Node.js bağımlılıklarını eksiksiz kurduğunuzdan emin olun.
 
 ---
 
 ### **3. Yerel Bilgisayarda Kurulum**
 
-Eğer projeyi yerel bilgisayarınızda çalıştırmak isterseniz:
-1. [Node.js](https://nodejs.org/) ve npm'i yükleyin.
+1. [Node.js](https://nodejs.org/) ve npm'in yüklü olduğundan emin olun.
 2. Proje klasörüne gidin:
    ```bash
    cd eka-kurumsal
