@@ -141,6 +141,5 @@ Proje tamamen açık kaynaklıdır. Katkıda bulunmak isterseniz **Pull Request*
 
 ---
 
-## **Lisans**
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+
 
